@@ -1,38 +1,88 @@
+body {
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background: linear-gradient(320deg, #fa4be0, #5e73fa);
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.container {
+  box-shadow: 2px 2px 3px 1px #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-image: url("https://wallpaperaccess.com/full/1540024.jpg");
+  text-align: center;
+  width: 700px;
+  height: 600px;
+}
+
+.data {
+  color: aliceblue;
+  height: auto;
+}
+
+.box {
+  font-size: larger;
+}
+
+.image {
+  border-radius: 50px;
+  backgroundr: none;
+}
+
+.inputField {
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.btn {
+  width: auto;
+  height: 30px;
+  padding: 3px;
+  margin: 2px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: cornflowerblue;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.subContainer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: larger;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.time {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.temp {
+  font-size: 100px;
+}
+
+.cityName {
+  margin: 20px;
+}
+
+.sub {
+  color: black;
 }
